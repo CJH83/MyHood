@@ -22,7 +22,7 @@ class AddPostVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
         
         
         
-        postImage.layer.cornerRadius = postImage.frame.size.width / 2
+        postImage.layer.cornerRadius = postImage.frame.width / 2
         postImage.clipsToBounds = true
         
         
