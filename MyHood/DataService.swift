@@ -75,7 +75,7 @@ class DataService {
     //Pass in unique image name as string.
     func documentsPathForFileName(name: String) -> String {
         // returns a path to the documents directory and stores it as an array in paths
-        let paths = NSSearchPathForDirectoriesInDomains(.DocumentationDirectory, .UserDomainMask, true)
+        let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)
         //pull the full path out of the array and store in a variable cast as an NSString(object c)
         let fullPath = paths[0] as NSString
         // return the full path to the document directory and append the name of the image on to the end creating a path including the image name
