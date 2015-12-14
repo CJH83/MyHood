@@ -21,7 +21,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableView.dataSource = self
         DataService.instance.loadPosts()
 
-       // NSNotificationCenter.defaultCenter().addObserver(self, selector: "o", name: "postsLoaded", object: nil)
+       NSNotificationCenter.defaultCenter().addObserver(self, selector: "onPostsLoaded", name: "postsLoaded", object: nil)
     
                 
         
@@ -61,7 +61,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return 84.0
     }
     
-    func o(notif: AnyObject) {
+    func onPostsLoaded(notif: AnyObject) {
         tableView.reloadData()
     }
     
