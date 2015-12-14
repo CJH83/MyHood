@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		832115A11C1D177500E1794E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832115A01C1D177500E1794E /* DataService.swift */; };
+		83944E511C1CF04700B42011 /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83944E501C1CF04700B42011 /* AddPostVC.swift */; };
+		83EE04521C1B900300B92A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EE04511C1B900300B92A73 /* AppDelegate.swift */; };
+		83EE04541C1B900300B92A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EE04531C1B900300B92A73 /* ViewController.swift */; };
+		83EE04571C1B900400B92A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EE04551C1B900400B92A73 /* Main.storyboard */; };
+		83EE04591C1B900400B92A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83EE04581C1B900400B92A73 /* Assets.xcassets */; };
+		83EE045C1C1B900400B92A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EE045A1C1B900400B92A73 /* LaunchScreen.storyboard */; };
+		83EE04671C1B900400B92A73 /* MyHoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EE04661C1B900400B92A73 /* MyHoodTests.swift */; };
+		83EE04721C1B900400B92A73 /* MyHoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EE04711C1B900400B92A73 /* MyHoodUITests.swift */; };
+		83EE04811C1B91D800B92A73 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EE04801C1B91D800B92A73 /* Post.swift */; };
+		83EE04841C1BC5D200B92A73 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EE04831C1BC5D200B92A73 /* PostCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83EE04631C1B900400B92A73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83EE04461C1B900300B92A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83EE044D1C1B900300B92A73;
+			remoteInfo = MyHood;
+		};
+		83EE046E1C1B900400B92A73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83EE04461C1B900300B92A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83EE044D1C1B900300B92A73;
+			remoteInfo = MyHood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		832115A01C1D177500E1794E /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		83944E501C1CF04700B42011 /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
+		83EE044E1C1B900300B92A73 /* MyHood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EE04511C1B900300B92A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83EE04531C1B900300B92A73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83EE04561C1B900400B92A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83EE04581C1B900400B92A73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83EE045B1C1B900400B92A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83EE045D1C1B900400B92A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83EE04621C1B900400B92A73 /* MyHoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EE04661C1B900400B92A73 /* MyHoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHoodTests.swift; sourceTree = "<group>"; };
+		83EE04681C1B900400B92A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83EE046D1C1B900400B92A73 /* MyHoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EE04711C1B900400B92A73 /* MyHoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHoodUITests.swift; sourceTree = "<group>"; };
+		83EE04731C1B900400B92A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83EE04801C1B91D800B92A73 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		83EE04831C1BC5D200B92A73 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83EE044B1C1B900300B92A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EE045F1C1B900400B92A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EE046A1C1B900400B92A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8321159F1C1D15AB00E1794E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				832115A01C1D177500E1794E /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		83944E4F1C1CF00500B42011 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				83EE04531C1B900300B92A73 /* ViewController.swift */,
+				83944E501C1CF04700B42011 /* AddPostVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		83EE04451C1B900300B92A73 = {
+			isa = PBXGroup;
+			children = (
+				83EE04501C1B900300B92A73 /* MyHood */,
+				83EE04651C1B900400B92A73 /* MyHoodTests */,
+				83EE04701C1B900400B92A73 /* MyHoodUITests */,
+				83EE044F1C1B900300B92A73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83EE044F1C1B900300B92A73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83EE044E1C1B900300B92A73 /* MyHood.app */,
+				83EE04621C1B900400B92A73 /* MyHoodTests.xctest */,
+				83EE046D1C1B900400B92A73 /* MyHoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83EE04501C1B900300B92A73 /* MyHood */ = {
+			isa = PBXGroup;
+			children = (
+				8321159F1C1D15AB00E1794E /* Services */,
+				83944E4F1C1CF00500B42011 /* Controller */,
+				83EE047F1C1B91C700B92A73 /* Model */,
+				83EE04821C1BC57B00B92A73 /* View */,
+				83EE04511C1B900300B92A73 /* AppDelegate.swift */,
+				83EE04551C1B900400B92A73 /* Main.storyboard */,
+				83EE04581C1B900400B92A73 /* Assets.xcassets */,
+				83EE045A1C1B900400B92A73 /* LaunchScreen.storyboard */,
+				83EE045D1C1B900400B92A73 /* Info.plist */,
+			);
+			path = MyHood;
+			sourceTree = "<group>";
+		};
+		83EE04651C1B900400B92A73 /* MyHoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				83EE04661C1B900400B92A73 /* MyHoodTests.swift */,
+				83EE04681C1B900400B92A73 /* Info.plist */,
+			);
+			path = MyHoodTests;
+			sourceTree = "<group>";
+		};
+		83EE04701C1B900400B92A73 /* MyHoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83EE04711C1B900400B92A73 /* MyHoodUITests.swift */,
+				83EE04731C1B900400B92A73 /* Info.plist */,
+			);
+			path = MyHoodUITests;
+			sourceTree = "<group>";
+		};
+		83EE047F1C1B91C700B92A73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83EE04801C1B91D800B92A73 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		83EE04821C1BC57B00B92A73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83EE04831C1BC5D200B92A73 /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83EE044D1C1B900300B92A73 /* MyHood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83EE04761C1B900400B92A73 /* Build configuration list for PBXNativeTarget "MyHood" */;
+			buildPhases = (
+				83EE044A1C1B900300B92A73 /* Sources */,
+				83EE044B1C1B900300B92A73 /* Frameworks */,
+				83EE044C1C1B900300B92A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyHood;
+			productName = MyHood;
+			productReference = 83EE044E1C1B900300B92A73 /* MyHood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83EE04611C1B900400B92A73 /* MyHoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83EE04791C1B900400B92A73 /* Build configuration list for PBXNativeTarget "MyHoodTests" */;
+			buildPhases = (
+				83EE045E1C1B900400B92A73 /* Sources */,
+				83EE045F1C1B900400B92A73 /* Frameworks */,
+				83EE04601C1B900400B92A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83EE04641C1B900400B92A73 /* PBXTargetDependency */,
+			);
+			name = MyHoodTests;
+			productName = MyHoodTests;
+			productReference = 83EE04621C1B900400B92A73 /* MyHoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83EE046C1C1B900400B92A73 /* MyHoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83EE047C1C1B900400B92A73 /* Build configuration list for PBXNativeTarget "MyHoodUITests" */;
+			buildPhases = (
+				83EE04691C1B900400B92A73 /* Sources */,
+				83EE046A1C1B900400B92A73 /* Frameworks */,
+				83EE046B1C1B900400B92A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83EE046F1C1B900400B92A73 /* PBXTargetDependency */,
+			);
+			name = MyHoodUITests;
+			productName = MyHoodUITests;
+			productReference = 83EE046D1C1B900400B92A73 /* MyHoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83EE04461C1B900300B92A73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Chris Harrison";
+				TargetAttributes = {
+					83EE044D1C1B900300B92A73 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					83EE04611C1B900400B92A73 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 83EE044D1C1B900300B92A73;
+					};
+					83EE046C1C1B900400B92A73 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 83EE044D1C1B900300B92A73;
+					};
+				};
+			};
+			buildConfigurationList = 83EE04491C1B900300B92A73 /* Build configuration list for PBXProject "MyHood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83EE04451C1B900300B92A73;
+			productRefGroup = 83EE044F1C1B900300B92A73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83EE044D1C1B900300B92A73 /* MyHood */,
+				83EE04611C1B900400B92A73 /* MyHoodTests */,
+				83EE046C1C1B900400B92A73 /* MyHoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83EE044C1C1B900300B92A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EE045C1C1B900400B92A73 /* LaunchScreen.storyboard in Resources */,
+				83EE04591C1B900400B92A73 /* Assets.xcassets in Resources */,
+				83EE04571C1B900400B92A73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EE04601C1B900400B92A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EE046B1C1B900400B92A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83EE044A1C1B900300B92A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EE04811C1B91D800B92A73 /* Post.swift in Sources */,
+				83EE04541C1B900300B92A73 /* ViewController.swift in Sources */,
+				83944E511C1CF04700B42011 /* AddPostVC.swift in Sources */,
+				832115A11C1D177500E1794E /* DataService.swift in Sources */,
+				83EE04521C1B900300B92A73 /* AppDelegate.swift in Sources */,
+				83EE04841C1BC5D200B92A73 /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EE045E1C1B900400B92A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EE04671C1B900400B92A73 /* MyHoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EE04691C1B900400B92A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EE04721C1B900400B92A73 /* MyHoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83EE04641C1B900400B92A73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83EE044D1C1B900300B92A73 /* MyHood */;
+			targetProxy = 83EE04631C1B900400B92A73 /* PBXContainerItemProxy */;
+		};
+		83EE046F1C1B900400B92A73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83EE044D1C1B900300B92A73 /* MyHood */;
+			targetProxy = 83EE046E1C1B900400B92A73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83EE04551C1B900400B92A73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83EE04561C1B900400B92A73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83EE045A1C1B900400B92A73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83EE045B1C1B900400B92A73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83EE04741C1B900400B92A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83EE04751C1B900400B92A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83EE04771C1B900400B92A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyHood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CJHarrison.MyHood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83EE04781C1B900400B92A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyHood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CJHarrison.MyHood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83EE047A1C1B900400B92A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyHoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CJHarrison.MyHoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHood.app/MyHood";
+			};
+			name = Debug;
+		};
+		83EE047B1C1B900400B92A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyHoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CJHarrison.MyHoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHood.app/MyHood";
+			};
+			name = Release;
+		};
+		83EE047D1C1B900400B92A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyHoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CJHarrison.MyHoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyHood;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		83EE047E1C1B900400B92A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyHoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CJHarrison.MyHoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyHood;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83EE04491C1B900300B92A73 /* Build configuration list for PBXProject "MyHood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EE04741C1B900400B92A73 /* Debug */,
+				83EE04751C1B900400B92A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83EE04761C1B900400B92A73 /* Build configuration list for PBXNativeTarget "MyHood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EE04771C1B900400B92A73 /* Debug */,
+				83EE04781C1B900400B92A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83EE04791C1B900400B92A73 /* Build configuration list for PBXNativeTarget "MyHoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EE047A1C1B900400B92A73 /* Debug */,
+				83EE047B1C1B900400B92A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83EE047C1C1B900400B92A73 /* Build configuration list for PBXNativeTarget "MyHoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EE047D1C1B900400B92A73 /* Debug */,
+				83EE047E1C1B900400B92A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83EE04461C1B900300B92A73 /* Project object */;
+}
